@@ -7,6 +7,8 @@
  ![rustlang](https://img.shields.io/badge/rustlang-orange)
  ![make](https://img.shields.io/badge/make-orange)
 
+[automation-tasks-rs](https://github.com/orgs/automation-tasks-rs/repositories) is a "GitHub organization" that groups [multiple repositories](https://github.com/orgs/automation-tasks-rs/repositories) together.
+
 Cargo is a great tool for building Rust projects. It has all the basics: `cargo build`, `cargo build --release`, `cargo fmt`, `cargo test`, `cargo doc`,...
 
 But sometimes we need to do more things like copying some files, publishing to FTP, or entering long commands. These repetitive tasks must be automated.  
