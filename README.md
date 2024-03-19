@@ -29,7 +29,7 @@ A simple system for workflow automation in pure Rust.
 
 I recommend using the CRDE - Containerized Rust Development Environment to write Rust projects.  
 Follow the instructions here  
-<https://github.com/bestia-dev/docker_rust_development>.  
+<https://github.com/CRUSTDE-Containerized-Rust-Dev-Env/docker_rust_development>.  
 
 It is an isolated development environment that will not mess with your system.  
 It will work on Linux (tested on Debian) and inside WSL (Windows Subsystem for Linux).
@@ -58,7 +58,7 @@ cargo auto github_new_release
 ```
 
 Every task finishes with instructions how to proceed.  
-The [cargo-auto](https://github.com/bestia-dev/cargo-auto) and [dev_bestia_cargo_completion](https://github.com/bestia-dev/dev_bestia_cargo_completion) are already installed inside the CRDE container.
+The [cargo-auto](https://github.com/automation-tasks-rs/cargo-auto) and [dev_bestia_cargo_completion](https://github.com/automation-tasks-rs/dev_bestia_cargo_completion) are already installed inside the CRDE container.
 
 You can open the automation sub-project in VSCode and then code your own tasks in Rust.
 
