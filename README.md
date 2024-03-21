@@ -5,7 +5,6 @@
  ![maintained](https://img.shields.io/badge/maintained-green)
  ![ready-for-use](https://img.shields.io/badge/ready_for_use-green)
  ![rustlang](https://img.shields.io/badge/rustlang-orange)
- ![make](https://img.shields.io/badge/make-orange)
 
  ![logo](https://raw.githubusercontent.com/automation-tasks-rs/cargo-auto/main/images/logo/logo_cargo_auto.svg)
  automation-tasks-rs is a "GitHub organization" that groups [multiple repositories](https://github.com/orgs/automation-tasks-rs/repositories?q=sort%3Aname-asc) together
@@ -20,14 +19,19 @@ Sadly there is no standard in the Rust community for now.
 
 But I don't want to learn another metalanguage with weird syntax that is difficult to debug.  
 I want something similar to [build.rs](https://doc.rust-lang.org/cargo/reference/build-scripts.html), so I can write my "automation tasks" in pure Rust.  
-Some kind of Rust scripting language for workflow automation.   
+Some kind of Rust scripting language for workflow automation.  
   
-Enter `cargo-auto`, `cargo_auto_lib`, `dev_bestia_cargo_completion` and `automation_tasks_rs`.  
-A simple system for workflow automation in pure Rust.  
+Enter a simple system for workflow automation in pure Rust: 
 
-## CRDE - Containerized Rust Development Environment
+- [automation_tasks_rs](https://github.com/automation-tasks-rs/automation-tasks-rs)
+- [cargo-auto](https://github.com/automation-tasks-rs/cargo-auto)
+- [cargo_auto_lib](https://github.com/automation-tasks-rs/cargo_auto_lib)
+- [dev_bestia_cargo_completion](https://github.com/automation-tasks-rs/dev_bestia_cargo_completion)
+ 
 
-I recommend using the CRDE - Containerized Rust Development Environment to write Rust projects.  
+## CRUSTDE - Containerized Rust Development Environment
+
+I recommend using the CRUSTDE - Containerized Rust Development Environment to write Rust projects.  
 Follow the instructions here  
 <https://github.com/CRUSTDE-Containerized-Rust-Dev-Env/docker_rust_development>.  
 
@@ -58,7 +62,7 @@ cargo auto github_new_release
 ```
 
 Every task finishes with instructions how to proceed.  
-The [cargo-auto](https://github.com/automation-tasks-rs/cargo-auto) and [dev_bestia_cargo_completion](https://github.com/automation-tasks-rs/dev_bestia_cargo_completion) are already installed inside the CRDE container.
+The [cargo-auto](https://github.com/automation-tasks-rs/cargo-auto) and [dev_bestia_cargo_completion](https://github.com/automation-tasks-rs/dev_bestia_cargo_completion) are already installed inside the CRUSTDE container.
 
 You can open the automation sub-project in VSCode and then code your own tasks in Rust.
 
