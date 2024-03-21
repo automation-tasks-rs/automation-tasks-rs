@@ -38,7 +38,7 @@ Follow the instructions here
 It is an isolated development environment that will not mess with your system.  
 It will work on Linux (tested on Debian) and inside WSL (Windows Subsystem for Linux).
 
-You just need to install the newer alternative to Docker: [podman](https://podman.io/). Then you download the prepared container image from DockerHub (3GB). And then a little juggling with ssh keys. All this is simplified by running a few bash scripts. Just follow the easy instructions.  
+You just need to install the newer alternative to Docker: [Podman](https://podman.io/). Then you download the prepared container image from DockerHub (3GB). And then a little juggling with ssh keys. All this is simplified by running a few bash scripts. Just follow the easy instructions.  
 
 The container image contains cargo, rustc, wasm-pack, basic-http-server, cargo-auto and other utils that a Rust project needs.  
 
