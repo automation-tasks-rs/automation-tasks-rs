@@ -5,6 +5,7 @@
  ![maintained](https://img.shields.io/badge/maintained-green)
  ![ready-for-use](https://img.shields.io/badge/ready_for_use-green)
  ![rustlang](https://img.shields.io/badge/rustlang-orange)
+ ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
  ![logo](https://raw.githubusercontent.com/automation-tasks-rs/cargo-auto/main/images/logo/logo_cargo_auto.svg)
  automation-tasks-rs is a "GitHub organization" that groups [multiple repositories](https://github.com/orgs/automation-tasks-rs/repositories?q=sort%3Aname-asc) together
